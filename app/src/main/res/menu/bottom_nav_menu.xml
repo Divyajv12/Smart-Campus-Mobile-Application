@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_nav_dashboard"
+        android:title="@string/nav_dashboard" />
+    <item
+        android:id="@+id/navigation_attendance"
+        android:icon="@drawable/ic_nav_attendance"
+        android:title="@string/nav_attendance" />
+    <item
+        android:id="@+id/navigation_timetable"
+        android:icon="@drawable/ic_nav_timetable"
+        android:title="@string/nav_timetable" />
+    <item
+        android:id="@+id/navigation_events"
+        android:icon="@drawable/ic_nav_events"
+        android:title="@string/nav_events" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_profile" />
+</menu>
+

@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "102938475610",
+    "project_id": "smart-campus-demo",
+    "storage_bucket": "smart-campus-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102938475610:android:a1b2c3d4e5f6a7b8c9d0e1",
+        "android_client_info": {
+          "package_name": "com.smartcampus.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102938475610-mockclientid123456789.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemoKeyForSmartCampusAppTesting123456"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

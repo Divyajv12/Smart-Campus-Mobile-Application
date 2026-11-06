@@ -1,0 +1,157 @@
+{
+  "students": {
+    "student_sample_uid_001": {
+      "uid": "student_sample_uid_001",
+      "fullName": "Alex Morgan",
+      "email": "alex.morgan@campus.edu",
+      "studentId": "CS2024-042",
+      "department": "Computer Science & Engineering",
+      "academicYear": "3rd Year (Semester VI)",
+      "phoneNumber": "+1 (555) 019-2834",
+      "bio": "Passionate about Android Development, Cloud Computing, and Mobile Systems Architecture.",
+      "avatarUrl": "",
+      "createdAt": 1730000000000,
+      "attendance": {
+        "att_1": {
+          "id": "att_1",
+          "subjectCode": "CS601",
+          "subjectName": "Data Structures & Algorithms",
+          "facultyName": "Dr. Robert Vance",
+          "totalClasses": 36,
+          "attendedClasses": 32
+        },
+        "att_2": {
+          "id": "att_2",
+          "subjectCode": "CS602",
+          "subjectName": "Database Management Systems",
+          "facultyName": "Prof. Jennifer Hayes",
+          "totalClasses": 32,
+          "attendedClasses": 29
+        },
+        "att_3": {
+          "id": "att_3",
+          "subjectCode": "CS603",
+          "subjectName": "Computer Networks",
+          "facultyName": "Dr. Alan Turing Jr.",
+          "totalClasses": 30,
+          "attendedClasses": 21
+        },
+        "att_4": {
+          "id": "att_4",
+          "subjectCode": "CS604",
+          "subjectName": "Operating Systems",
+          "facultyName": "Prof. Marcus Brody",
+          "totalClasses": 28,
+          "attendedClasses": 20
+        },
+        "att_5": {
+          "id": "att_5",
+          "subjectCode": "CS605",
+          "subjectName": "Software Engineering",
+          "facultyName": "Dr. Elena Rostova",
+          "totalClasses": 26,
+          "attendedClasses": 24
+        },
+        "att_6": {
+          "id": "att_6",
+          "subjectCode": "CS606",
+          "subjectName": "Cloud Computing & DevOps",
+          "facultyName": "Prof. Samuel Clark",
+          "totalClasses": 22,
+          "attendedClasses": 20
+        }
+      }
+    }
+  },
+  "timetable": {
+    "tt_m1": {
+      "id": "tt_m1",
+      "dayOfWeek": "Monday",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "subjectName": "Data Structures & Algorithms",
+      "subjectCode": "CS601",
+      "classroom": "Lecture Hall 101",
+      "facultyName": "Dr. Robert Vance",
+      "slotOrder": 1
+    },
+    "tt_m2": {
+      "id": "tt_m2",
+      "dayOfWeek": "Monday",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "subjectName": "Database Management Systems",
+      "subjectCode": "CS602",
+      "classroom": "Lecture Hall 101",
+      "facultyName": "Prof. Jennifer Hayes",
+      "slotOrder": 2
+    },
+    "tt_m3": {
+      "id": "tt_m3",
+      "dayOfWeek": "Monday",
+      "startTime": "11:15 AM",
+      "endTime": "01:15 PM",
+      "subjectName": "Algorithms Practical Lab",
+      "subjectCode": "CS601L",
+      "classroom": "Lab 304 (Turing Hall)",
+      "facultyName": "Dr. Robert Vance",
+      "slotOrder": 3
+    },
+    "tt_m4": {
+      "id": "tt_m4",
+      "dayOfWeek": "Monday",
+      "startTime": "02:00 PM",
+      "endTime": "03:00 PM",
+      "subjectName": "Operating Systems",
+      "subjectCode": "CS604",
+      "classroom": "Lecture Hall 105",
+      "facultyName": "Prof. Marcus Brody",
+      "slotOrder": 4
+    }
+  },
+  "announcements": {
+    "anc_1": {
+      "id": "anc_1",
+      "title": "Mid-Term Examination Schedule & Guidelines Released",
+      "description": "The university examination department has finalized the schedule for the Mid-Term Exams. Students must carry valid student ID cards to examination halls.",
+      "date": "Nov 05, 2026",
+      "timestamp": 1730800000000,
+      "category": "Exams",
+      "isImportant": true,
+      "author": "Office of the Controller of Examinations"
+    },
+    "anc_2": {
+      "id": "anc_2",
+      "title": "Smart Campus Hackathon 2026 - Registration Open",
+      "description": "Teams of 3 to 4 students can register for the 36-hour flagship hackathon. Exciting cash prizes, mentorship from leading tech firms, and internship opportunities await.",
+      "date": "Nov 04, 2026",
+      "timestamp": 1730700000000,
+      "category": "Events",
+      "isImportant": true,
+      "author": "Center for Innovation & Entrepreneurship"
+    }
+  },
+  "events": {
+    "evt_1": {
+      "id": "evt_1",
+      "title": "Smart Campus Hackathon 2026",
+      "description": "A 36-hour high-intensity national level hackathon addressing challenges in Smart Cities, AI-driven Healthcare, EdTech, and Sustainable Energy.",
+      "date": "Nov 18, 2026",
+      "time": "09:00 AM - 09:00 PM",
+      "venue": "Innovation Hub & Main Auditorium",
+      "category": "Technical",
+      "organizer": "Google Developer Student Clubs & ACM"
+    },
+    "evt_2": {
+      "id": "evt_2",
+      "title": "Vibrance 2026 - Annual Cultural Fest",
+      "description": "The biggest college cultural extravaganza featuring music battles, battle of the bands, classical dances, drama, and celebrity guest performances.",
+      "date": "Dec 04 - Dec 06, 2026",
+      "time": "05:00 PM onwards",
+      "venue": "University Open Air Theatre",
+      "category": "Cultural",
+      "organizer": "Student Cultural Affairs Committee"
+    }
+  }
+}
+
